@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link href="" rel="stylesheet" type="text/css">
-    <link href="styles/custom.css" rel="stylesheet" type="text/css">
+    <link href="custom.css" rel="stylesheet" type="text/css">
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
@@ -18,13 +18,13 @@
     <div class="container">
         <div class="row">
             <div class="col">
-            <img src="images/logo.png" alt="logo">
+            <img class="logo" src="images/logo.png" alt="logo">
             </div>
         </div>
     <div>
 
 <div id="accordion" role="tablist">
-    <div class="card">
+    <div class="card" id="gradient">
       <div class="card-header" role="tab" id="headingOne">
         <h5 class="mb-0">
           <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -34,8 +34,8 @@
             </div>
 
             <div class="col-7">
-                <h2>envolve<h2>
-                <h3>Imagine Dragons</h3>
+                <h1 class="text-uppercase font-weight-bold">envolve<h1>
+                <h2>Imagine Dragons</h2>
             </div>
             </div>
           </a>
@@ -43,25 +43,80 @@
       </div>  
       <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
         <div class="card-body">
-            <ul class="list">
-                <li class="list-item">I don't know why</li>
-                <li class="list-item">Whatever it takes</li>
-                <li class="list-item">Believer</li>
-                <li class="list-item">Walking the wire</li>
-                <li class="list-item">Rise up</li>
-                <li class="list-item">I'll make it up to you</li>
-                <li class="list-item">Yesterday</li>
-                <li class="list-item">Mouth of the river</li>
-                <li class="list-item">Thunder</li>
-                <li class="list-item">Start over</li>
-                <li class="list-item">Dancing in the dark</li>
+            <ul class="list-unstyled">
+                <li class="media">
+                  <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">I don't know why</h5>
+                  </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Whatever it takes</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Believer</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Walking the wire</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Rise up</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">I'll make it up to you</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Yesterday</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Mouth of the river</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Thunder</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Start over</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Dancing in the dark</h5>
+                    </div>
+                </li>
             </ul>
         </div>
       </div>
     </div>
 
 
-    <div class="card">
+    <div class="card" id="gradient">
       <div class="card-header" role="tab" id="headingTwo">
         <h5 class="mb-0">
           <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -71,8 +126,8 @@
             </div>
 
             <div class="col-7">
-                <h2>memories<h2>
-                <h3>The Chainsmokers</h3>
+                <h1 class="text-uppercase font-weight-bold">memories<BR>... do not open<h1>
+                <h2>The Chainsmokers</h2>
             </div>
             </div>
           </a>
@@ -80,26 +135,86 @@
       </div>
       <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
         <div class="card-body">
-            <ul class="list">
-                <li class="list-item">The one</li>
-                <li class="list-item">Break up every night</li>
-                <li class="list-item">Bloodstream</li>
-                <li class="list-item">Don't say</li>
-                <li class="list-item">Something just like this</li>
-                <li class="list-item">My type</li>
-                <li class="list-item">It won't kill ya</li>
-                <li class="list-item">Paris</li>
-                <li class="list-item">Honest</li>
-                <li class="list-item">Wake up alone</li>
-                <li class="list-item">Young</li>
-                <li class="list-item">Last day alive</li>
+            <ul class="list-unstyled">
+                <li class="media">
+                  <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">The one</h5>
+                  </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Break up every night</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Bloodstream</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Don't say</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Something just like this</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">My type</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">It won't kill ya</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Paris</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Honest</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Wake up alone</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Young</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Last day alive</h5>
+                    </div>
+                </li>
             </ul>
         </div>
       </div>
     </div>
 
 
-    <div class="card">
+    <div class="card" id="gradient">
       <div class="card-header" role="tab" id="headingThree">
         <h5 class="mb-0">
           <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -109,8 +224,8 @@
             </div>
 
             <div class="col-7">
-                <h2>divide<h2>
-                <h3>Ed Sheeran</h3>
+                <h1 class="text-uppercase font-weight-bold">divide<h1>
+                <h2>Ed Sheeran</h2>
             </div>
             </div>
           </a>
@@ -118,23 +233,103 @@
       </div>
       <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
         <div class="card-body">
-            <ul class="list">
-                <li class="list-item">Eraser</li>
-                <li class="list-item">Castle on the hill</li>
-                <li class="list-item">Dive</li>
-                <li class="list-item">Shape of you</li>
-                <li class="list-item">Perfect</li>
-                <li class="list-item">Galway girl</li>
-                <li class="list-item">Happier</li>
-                <li class="list-item">New man</li>
-                <li class="list-item">Hearts don't break around here</li>
-                <li class="list-item">What do I know</li>
-                <li class="list-item">How would you feel</li>
-                <li class="list-item">Supermarket flowers</li>
-                <li class="list-item">Barcelona</li>
-                <li class="list-item">Bibia be ye ye</li>
-                <li class="list-item">Nancy Mulligan</li>
-                <li class="list-item">Save myself</li>
+            <ul class="list-unstyled">
+                <li class="media">
+                  <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">Eraser</h5>
+                  </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Castle on the hill</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Dive</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Shape of you</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Perfect</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Galway girl</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Happier</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">New man</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Hearts don't break around here</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">What do I know</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">How would you feel</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Supermarket flowers</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Barcelona</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Bibia be ye ye</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Nancy Mulligan</h5>
+                    </div>
+                </li>
+                <li class="media">
+                    <img class="d-flex mr-3" src="images/vinylplaat.png" class="img-fluid" alt="vinylplaat">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Save myself</h5>
+                    </div>
+                </li>
             </ul>
         </div>
       </div>
