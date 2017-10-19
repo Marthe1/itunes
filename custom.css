@@ -71,23 +71,25 @@ a:link {
 @media (min-width: 576px) { ... }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) { }
+    .img-fluid{
+        width: 350px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 70%;
+      }
+ 
 
-.img-fluid{
-    width: 350px;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
 
-.logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    width: 70%;
-  }
 
 
 // Large devices (desktops, 992px and up)
