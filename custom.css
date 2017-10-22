@@ -8,6 +8,11 @@ body {
 /* typografie */
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 @import url("https://fonts.googleapis.com/css?family=VT323");
+body {
+    font-family: 'Titillium Web', sans-serif;
+    color: #000000;
+    font-size: 20px;
+}
 
 h1 {
     font-family: 'VT323', monospace;
@@ -19,6 +24,18 @@ h2 {
     font-family: 'Titillium Web', sans-serif;
     color: #000000;
     font-size: 35px;
+}
+
+h3 {
+    font-family: 'VT323', monospace;
+    color: #000000;
+    font-size: 35px;
+}
+
+h4 {
+    font-family: 'Titillium Web', sans-serif;
+    color: #000000;
+    font-size: 20px;
 }
 
 
@@ -59,11 +76,27 @@ ul li img {
     border-radius: 0px;
 }
 
+#button_desktop {
+    display: block;    
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    border-radius: 0px;
+}
+
 a:link {
     text-decoration: none;
 }
 
+.img-fluid{
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
+
+  
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
@@ -71,30 +104,11 @@ a:link {
 @media (min-width: 576px) { ... }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { }
-    .img-fluid{
-        width: 350px;
-        border-radius: 10px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-      }
+@media (min-width: 768px) { ... }
     
-    .logo {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 100px;
-        margin-bottom: 100px;
-        width: 70%;
-      }
- 
-
-
-
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }
-
+ 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
-
